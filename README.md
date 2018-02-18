@@ -13,6 +13,8 @@ devtools::install_github("raymondkww/rkhscovfun")
 
 ## Example
 ```r
+library("rkhscovfun")
+
 #### generate demo data ####
 set.seed(1234)
 dat <- generate.demo.data(n=50, m=10, sigma=0.1, nk=2)
