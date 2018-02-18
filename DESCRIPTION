@@ -1,0 +1,11 @@
+Package: rkhscovfun
+Type: Package
+Title: Nonparametric Operator-Regularized Covariance Function Estimation
+Version: 1.0.1
+Date: 2018-02-16
+Author: Raymond K. W. Wong and Xiaoke Zhang
+Maintainer: Raymond K. W. Wong <raymondkww.dev@gmail.com>
+Description: This package provides a class of nonparametric covariance function estimators that utilize spectral regularization.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.11.5), doParallel, MASS, gss
+LinkingTo: Rcpp, RcppArmadillo

@@ -1,0 +1,4 @@
+useDynLib(rkhscovfun)
+export(rkhscov, rkhscov.cv, predict.rkhscov, fpca.rkhscov, compute.fpca, generate.demo.data)
+importFrom(Rcpp, evalCpp)
+importFrom(foreach, "%dopar%")
