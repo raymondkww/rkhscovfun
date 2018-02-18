@@ -19,7 +19,8 @@ dat <- generate.demo.data(n=50, m=10, sigma=0.1, nk=2)
 
 
 #### fitting ####
-# compute a trace-norm regularized estimator (with pre-chosen tuning parameter; see rkhscov.cv for tuning parameter selection via k-fold cross-validation)
+# compute a trace-norm regularized estimator (with pre-chosen tuning parameter;
+# see rkhscov.cv for tuning parameter selection via k-fold cross-validation)
 res <- rkhscov(time=dat$times, x=dat$y, subject=dat$ids, lam=2e-05, gam=1,
                centered=FALSE, pos=T)
 
