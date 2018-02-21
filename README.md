@@ -37,6 +37,9 @@ fres$values # eigenvalues
 efun <- compute.fpca(tgrid, fres) # eigenfunctions
 ```
 
+## Installation issue on MacOS
+If you are using a precompiled binary distribution of R for Mac OS X, you may experience a "-lgfortran" error during the installation of the package. This error is due to incorrect version of gfortran binary. You can find a solution [\[here\]](https://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks--lgfortran-and--lquadmath-error/).
+
 
 ## References
 * R. K. W. Wong and X. Zhang. (2017) "Nonparametric Operator-Regularized Covariance Function Estimation for Functional Data". [\[arXiv\]](http://arxiv.org/abs/1701.06263)

@@ -47,7 +47,7 @@ rkhscov.cv(time, x, subject, nfold=5, weight=NULL, centered=FALSE, ncpu=nfold,
 }
 \references{R. K. W. Wong and X. Zhang. (2017) "Nonparametric Operator-Regularized Covariance Function Estimation for Functional Data".}
 \seealso{
-\code{\link{predict.rkhscov, fpca.rkhscov}}
+\code{\link{predict.rkhscov}, \link{fpca.rkhscov}}
 }
 
 \examples{

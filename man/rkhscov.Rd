@@ -7,8 +7,8 @@
   This function computes a nonparametric operator-regularized covariance function estimatior.
 }
 \usage{
-rkhscov.cv(time, x, subject, lam, gam=1, weight=NULL, centered=FALSE, B0v=NULL,
-           pos=TRUE, control=list())
+rkhscov(time, x, subject, lam, gam=1, weight=NULL, centered=FALSE, B0v=NULL,
+        pos=TRUE, control=list())
 }
 \arguments{
   \item{time}{
@@ -43,7 +43,7 @@ rkhscov.cv(time, x, subject, lam, gam=1, weight=NULL, centered=FALSE, B0v=NULL,
 }
 \references{R. K. W. Wong and X. Zhang. (2017) "Nonparametric Operator-Regularized Covariance Function Estimation for Functional Data".}
 \seealso{
-\code{\link{predict.rkhscov, fpca.rkhscov}}
+\code{\link{predict.rkhscov}, \link{fpca.rkhscov}}
 }
 \examples{
 library(rkhscovfun)
